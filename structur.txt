@@ -1,14 +1,17 @@
-/
-├── README.md                 # Project summary and high-level architecture
-├── package.json              # Web-stack dependencies
-├── tsconfig.json             # TypeScript configuration
-├── satscanpro_cyber_core.py  # [STUB] Edge-computing processor
-├── ramanujan_geodesy.py      # [STUB] Coordinate math interface
-├── src/                      # Frontend implementation
-│   ├── App.tsx               # Main UI entry point
-│   ├── components/           # Modular UI components
-│   │   ├── MainMap.tsx       # Visualization layer
-│   │   ├── TacticalOverride.tsx # Command interface
-│   │   └── TelemetryBar.tsx  # Data monitoring
-│   └── workers/              # Background processing
-└── .gitignore                # Environment and security filtering
+SatScanPro/
+│
+├── src/
+│   ├── App.tsx                        # Main application integration plane
+│   ├── satscanpro_cyber_core.py       # Core telemetry ingestion & audit watchdog (Sanitized)
+│   │
+│   └── components/
+│       ├── MainMap/                   # Orbital tracking & geodesy rendering component
+│       └── TacticalOverride/          # Manual mitigation plane & STOP protocol trigger
+│
+├── img/
+│   ├── dashboard-metrics.png          # SITL nominal execution state representation
+│   └── loss-of-lock-alert.png         # Tactical override actuation representation
+│
+├── .gitignore                         # Local hardware bindings and environment isolation
+├── README.md                          # Advanced Technical Abstract & Briefing Metadata
+└── struct.txt                         # Repository architecture manifest
