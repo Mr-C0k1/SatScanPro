@@ -18,7 +18,7 @@ By decoupling ingestion mechanics from standard dynamic memory bounds, SatScanPr
 
 ## 🖥️ 2. Live System Visualization
 
-Below are the interface state representations captured from the isolated Kali Linux node during a Software-In-The-Loop (SITL) digital twin execution simulation. 
+Below are the interface state representations captured from the isolated Kali Linux node during a Software-In-The-Loop (SITL) digital twin execution simulation.
 
 <p align="center">
   <img src="img/dashboard-metrics.png" width="48%" alt="SatScanPro Operational Dashboard" />
@@ -26,10 +26,8 @@ Below are the interface state representations captured from the isolated Kali Li
 </p>
 
 <p align="center">
-  <i>Figure 1: SatScanPro Core Telemetry Verification Interface (Left: Passive Ingress & Real-Time Doppler Tracking; Right: Automated Interception Protocol Actuation following calculated $S(t)$ Safety Metric depletion).</i>
+  <i>Figure 1: SatScanPro Core Telemetry Verification Interface (Left: Active nominal state executing real-time Doppler tracking at 137.100 MHz, calculating pass projections for NOAA-19 / ISS, and maintaining a "SYSTEM OK" telemetry status. Right: Automated tactical interception plane indicating an active payload breach attempt under CVE-2026-9901, displaying the critical "STOP - LOSS OF LOCK" override, and immediate data purge sequencing).</i>
 </p>
-
----
 
 ## ⚡ 3. Architectural Deep Dive
 
