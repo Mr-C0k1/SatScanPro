@@ -1,0 +1,14 @@
+/
+├── README.md                 # Project summary and high-level architecture
+├── package.json              # Web-stack dependencies
+├── tsconfig.json             # TypeScript configuration
+├── satscanpro_cyber_core.py  # [STUB] Edge-computing processor
+├── ramanujan_geodesy.py      # [STUB] Coordinate math interface
+├── src/                      # Frontend implementation
+│   ├── App.tsx               # Main UI entry point
+│   ├── components/           # Modular UI components
+│   │   ├── MainMap.tsx       # Visualization layer
+│   │   ├── TacticalOverride.tsx # Command interface
+│   │   └── TelemetryBar.tsx  # Data monitoring
+│   └── workers/              # Background processing
+└── .gitignore                # Environment and security filtering
